@@ -1,4 +1,7 @@
+.Container{
+    font-family: 'Roboto Condensed', sans-serif;
 
+}
 .nav{
     padding-right:30px;
     padding-left: 30px;
@@ -35,6 +38,12 @@
     align-items: center;
     flex-grow: 2;
 }
+.clemo{
+    font-size:40px;
+}
+.links{
+    font-size: 23px;
+}
 .secondContainer-content{
     display:flex;
    
@@ -50,7 +59,8 @@ padding-top: 10px;
  
 }
 .secondContainer-content div:nth-child(1){
-    font-size: 60px;
+    font-size: 70px;
+    font-weight: bold;
 
     
 }
@@ -65,6 +75,7 @@ padding-top: 10px;
 .professionals{
     padding-bottom:10px;
     font-size: 30px;
+    font-weight: 400;
 }
 .learnmore{
     border:none;
@@ -110,8 +121,9 @@ padding-top: 10px;
 
 
 .thirdContainer .heading{
-    font-size: 60px;
+    font-size: 90px;
     padding-bottom: 30px;
+    font-weight:100;
 }
 .pic-para{
     color:#998B78;
@@ -156,11 +168,12 @@ padding-top: 10px;
     display:grid;
     grid-template-rows: 150px 1fr 150px;
 }
-.best-word{
+.best-work{
     display:grid;
     justify-content: center;
     align-content: center;
     font-size: 70px;
+    font-weight: 100;
     
 }
 .m{
@@ -199,6 +212,7 @@ padding-top: 10px;
     justify-content: center;
     align-content: center;
     font-size: 50px;
+    font-weight: 100;
 }
 .position{
     display:grid;
@@ -267,6 +281,7 @@ padding-top: 10px;
     justify-content: center;
     align-content: center;
     font-size: 50px;
+    font-weight: 100;
 }
 .frank-para{
     display:grid;
@@ -277,6 +292,10 @@ padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.small-divs div{
+    color:#B4B4B4;
+    background: #E5E5E5;
 }
 .little-div{
     height:140px;
@@ -337,6 +356,7 @@ align-items: flex-end;
      justify-content: center;
      align-content: center;
      font-size: 50px;
+     font-weight: 100;
  }
  .address{
      display:flex;
